@@ -1,0 +1,23 @@
+h1{
+    color: red;
+    padding: 10px;
+    background-color: #000;
+}
+p{
+    color: blue;
+    padding: 20px;
+    background-color: aqua;
+}
+
+#id1{
+    color: whitesmoke;
+    background-color: red;
+}
+
+/* grouping selector */
+h1, p, span, #div1, #id1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+}
